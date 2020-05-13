@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* range inputs */
+
+.md-flight-booking .md-time-range {
+  overflow: hidden;
+  width: 99%;
+}
+
+.mbsc-ios .md-time-range {
+  background: #fff;
+}
+
+.md-time-range .mbsc-input {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.mbsc-ios .md-time-range .mbsc-input {
+  display: block;
+}
+
+.mbsc-ios .md-time-range .mbsc-input .mbsc-label {
+  font-size: 14px;
+  padding-left: 1.14285em;
+  padding-top: 0.75em;
+  line-height: 22px;
+}
+
+.mbsc-ios .md-time-range .mbsc-input .mbsc-label {
+  width: 100%;
+}
+
+.md-time-range .mbsc-input:first-child {
+  padding-right: .5em;
+}
+
+.md-time-range .mbsc-input:last-child {
+  padding-left: .5em;
+}
+
+@keyframes App-logo-spin {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}

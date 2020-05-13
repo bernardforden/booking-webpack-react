@@ -1,0 +1,6 @@
+{
+  "name": "mobiscroll",
+  "private": true,
+  "license": "MIT",
+  "main": "mobiscroll.react.min.js"
+}
